@@ -39,7 +39,7 @@ header {
   padding: 2rem;
 }
 
-.logo img {
+.logo_img {
   height: 1.5rem;
   padding-right: 1rem;
 }
@@ -98,6 +98,39 @@ h4 {
   text-align: center;
 }
 
+.business_info {
+  display: flex;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5%;
+  width: 35%;
+}
+
+h3 {
+  background-color: cadetblue;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+}
+
+p {
+  padding-top: 1rem;
+  margin-bottom: 5rem;
+  line-height: 1.5rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  color: black;
+  padding: 4rem;
+}
 @media only screen and (max-width: 960px) {
 
   .site_container {
