@@ -44,6 +44,10 @@ header {
   padding-right: 1rem;
 }
 
+.mobile_nav {
+  display: none;
+}
+
 a {
   color: white;
   padding-right: 2rem;
@@ -64,8 +68,8 @@ header .site_container {
   font-weight: bold;
   line-height: 1.2rem;
   position: relative;
-  top: 10rem;
-  left: 2rem;
+  margin-top: 10rem;
+  margin-left: 2rem;
   padding: 1.5rem 5rem;
 }
 
@@ -131,7 +135,7 @@ footer {
   color: black;
   padding: 4rem;
 }
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1024px) {
 
   .site_container {
     width: 100%;
@@ -145,10 +149,33 @@ footer {
     font-size: 1.33rem;
     margin-right: 4rem;
     padding: 0.75rem 4rem;
-    top: 5rem;
+    margin-top: 5rem;
   }
 
   .menu_bar {
     margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+
+  header {
+    height: 17rem;
+  }
+  .main_nav {
+    display: none;
+  }
+
+  .mobile_nav {
+    display: block;
+  }
+
+  .slogan_box {
+    margin-top: 9rem;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2rem;
+    padding: 1rem 4rem;
+    width: 100%;
   }
 }
