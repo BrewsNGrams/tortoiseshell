@@ -155,26 +155,3 @@ footer {
     margin-top: 0;
   }
 }
-
-@media only screen and (max-width: 560px) {
-
-  header {
-    height: 17rem;
-  }
-  .main_nav {
-    display: none;
-  }
-
-  .mobile_nav {
-    display: block;
-  }
-
-  .slogan_box {
-    margin-top: 9rem;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 2rem;
-    padding: 1rem 4rem;
-    width: 100%;
-  }
-}
