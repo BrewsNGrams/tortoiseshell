@@ -2,7 +2,6 @@ html {
   font-family: helvetica, sans-serif;
   font-size: 18px;
   line-height: 1.4;
-  margin: 0 auto;
 }
 
 .site_container {
@@ -135,10 +134,10 @@ footer {
   color: black;
   padding: 4rem;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 960px) {
 
   .site_container {
-    width: 100%;
+    width: auto;
   }
 
   header {
