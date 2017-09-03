@@ -106,6 +106,7 @@ header .site_container {
 
 .title {
   background-color: cadetblue;
+  box-sizing: content-box;
   color: white;
   font-size: 1rem;
   font-weight: bold;
@@ -169,7 +170,7 @@ footer {
     margin-top: 9rem;
     margin-right: 0;
     padding: 1rem;
-    width: 100%;
+    width: 92%;
   }
 
   .services {
